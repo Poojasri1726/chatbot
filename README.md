@@ -1,10 +1,10 @@
-# 💬 AI Chatbot using Flask & OpenAI API
+# 💬 AI Chatbot using Flask & GEMINI AI API
 
-This is a general-purpose AI chatbot built using **Python**, **Flask**, and **OpenAI API**. The chatbot responds to user messages and generates intelligent replies using OpenAI's powerful language models.
+This is a general-purpose AI chatbot built using **Python**, **Flask**, and **GEMINI AI API**. The chatbot responds to user messages and generates intelligent replies using OpenAI's powerful language models.
 
 ## 🚀 Features
 
-- Conversational AI using OpenAI API  
+- Conversational AI using Gemini AI API  
 - Flask-based Python backend  
 - Simple and responsive frontend using HTML, CSS, JS  
 - API key management with `.env` for security  
@@ -58,7 +58,7 @@ Create a .env file in the root directory and add your API key:
 ini
 Copy
 Edit
-OPENAI_API_KEY=your_openai_api_key_here
+GEMINIAI_API_KEY=your_openai_api_key_here
 Run the Flask App
 
 bash
@@ -72,7 +72,7 @@ Start the server
 
 Enter your question in the text box
 
-Wait for the response from OpenAI
+Wait for the response from GeminiAI
 
 The conversation will be saved in chat_history.json
 
@@ -81,7 +81,7 @@ Flask
 
 python-dotenv
 
-openai or google-generativeai (based on the version used)
+Geminiai or google-generativeai (based on the version used)
 
 All dependencies are listed in requirements.txt.
 
